@@ -1,0 +1,24 @@
+<div>
+    <div class="flex items-center justify-center">
+      <img src="https://p4.wallpaperbetter.com/wallpaper/779/197/171/pokemon-pokemon-sword-and-shield-grookey-pokemon-scorbunny-pokemon-sobble-pokemon-hd-wallpaper-thumb.jpg">
+    </div>
+    <div class="border-2 grid grid-cols-6 w-full bg-blue-900 border-yellow-500 font-mono
+    text-yellow-500 text-xl">
+        <div class="col-start-3 items-center">
+            <button mat-button (click)="btnHome()">Home</button>
+        </div>
+        <div class="col-start-4 items-center">
+          <button mat-button (click)="btnPokedex()">Pokedex</button>
+        </div>
+        <div class="col-start-6 self-end">
+          <button mat-icon-button [matMenuTriggerFor]="menu">
+            Admin Panel
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="btnAdminCrud()">
+              Tela de Admin
+            </button>
+          </mat-menu>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="flex items-center justify-center pd-2">
+  <div class="pt-7 grid grid-cols-5 gap-x-2 gap-y-2">
+    <div *ngFor="let poke of pokemons">
+      <mat-card class="text-center h-32 w-32">
+        <div class="flex items-center justify-center" *ngIf="poke.img != null">
+          <img class="h-2/4 w-2/4" src="{{poke.img}}">
+        </div>
+        <div class="row">
+          {{poke.name}}
+          <div class="column">
+            {{poke.type1}}
+            {{poke.type2}}
+          </div>
+          <div>
+            {{pokeNum(poke.id)}}
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>

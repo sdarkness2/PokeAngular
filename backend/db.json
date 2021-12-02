@@ -1,0 +1,51 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "img": null,
+            "name": "Bulbassaur",
+            "type1": "Grass",
+            "type2": "Poison",
+            "description": null
+        },
+        {
+            "id": 4,
+            "img": "https://img.pokemondb.net/sprites/red-blue/normal/charmander.png",
+            "name": "Charmander",
+            "type1": "Fire",
+            "type2": null,
+            "description": null
+        },
+        {
+            "id": 7,
+            "img": null,
+            "name": "Squirtle",
+            "type1": "Water",
+            "type2": null,
+            "description": null
+        },
+        {
+            "id": 2,
+            "img": null,
+            "name": "Ivysaur",
+            "type1": "Grass",
+            "type2": "Poison",
+            "description": null
+        },
+        {
+            "id": 3,
+            "img": null,
+            "name": "Venosaur",
+            "type1": "Grass",
+            "type2": "Poison",
+            "description": null
+        }
+    ],
+    "blog": [
+        {
+            "id": 1,
+            "title": "Pokemons que não evoluem",
+            "notice": "Existe uma enorme variedade de pokemons que não evoluem blablabla"
+        }
+    ]
+}

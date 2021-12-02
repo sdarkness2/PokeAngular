@@ -1,0 +1,12 @@
+<div class="flex items-center pt-7 justify-center">
+  <div *ngFor="let blog of blogs">
+    <mat-card class="w-full">
+        <mat-card-title>
+          {{blog.title}}
+        </mat-card-title>
+        <mat-card-content>
+          {{blog.notice}}
+        </mat-card-content>
+    </mat-card>
+  </div>
+</div>
